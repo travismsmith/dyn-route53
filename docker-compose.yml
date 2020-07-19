@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  dyn:
+    build:
+      context: .
+    volumes:
+      - /var/log/dyn.log:/var/log/dyn.log
+      - ~/.aws:/root/.aws
+    environment:
+      - Record_Name
+      - Record_Zone

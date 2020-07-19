@@ -1,0 +1,3 @@
+Record_Name=example.com
+Record_Zone=Z11111111111
+*/5 * * * * root  docker-compose -f fullpath/docker-compose.yml run --rm dyn
